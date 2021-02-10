@@ -2,9 +2,9 @@
 import React from 'react';
 
 // == Import
-import Message from '../Message';
+import Message from '../../containers/Message';
 import ReposResults from '../ReposResults';
-import SearchBar from '../SearchBar';
+import SearchBar from '../../containers/SearchBar';
 import Logo from './logo-github.png';
 import 'semantic-ui-css/semantic.min.css';
 import './styles.scss';
