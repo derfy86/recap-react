@@ -1,0 +1,43 @@
+.container-reposResults {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  
+}
+
+.h2 {
+  margin-bottom: 0;
+}
+
+.h3 {
+  margin: 0 0 1rem 0;
+  color: rgb(202, 204, 204);
+}
+
+.container-profil {
+  border-radius: 5px;
+  width: 31%;
+  text-align: left;
+  background-color: white;
+  margin:1.5rem 0rem ;
+  box-shadow: -1px 1px 1px  #bdc3c7;
+  &-text {
+    padding: 1rem;
+  }
+}
+
+.img {
+  border-radius: 5px 5px 0px 0px;
+  width: 100%;
+}
+
+.button {
+  display: block;
+  margin-bottom: 2rem;
+  align-items: flex-end;
+}
+
+.solo {
+  width: 100%;
+}
